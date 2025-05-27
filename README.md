@@ -65,11 +65,11 @@ MetaSigns/
 
 ### Installing NPOI for Unity
 
-In Unity, go to Window > Package Manager. Click the + symbol.
+1. In Unity, go to Window > Package Manager. Click the + symbol.
 
-Paste this URL: https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity
+2. Paste this URL: https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity
 
-Reopen Unity. Then go to NuGet > Manage NuGet Packages, search for npoi, and install it.
+3. Reopen Unity. Then go to NuGet > Manage NuGet Packages, search for npoi, and install it.
 
 ### Sign Language Videos
 Place video files in the following directory: Assets/Resources/aslVideos/
