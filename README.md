@@ -25,25 +25,26 @@ The MetaSigns game consists of three main layers:
    - It is highlighted **green** if correct (and plays the sign language video).
    - It is highlighted **red** if incorrect.
 
+
 ## Project Structure
 
-
+```
 MetaSigns/
 ├── Assets/
-│ ├── Resources/
-│ │ ├── aslVideos/ # Sign language videos
-│ │ └── Concepts.xlsx # Excel file with subject & concept words
-│ └── Scripts/
-│ ├── LlamaParagraphGenerator.cs # Main game logic
-│ ├── BackendManager.cs # Handles Excel input
-│ └── VideoManager.cs # Handles video playback
+│   ├── Resources/
+│   │   ├── aslVideos/          # Sign language videos
+│   │   └── Concepts.xlsx       # Excel file with subject & concept words
+│   └── Scripts/
+│       ├── LlamaParagraphGenerator.cs  # Main game logic
+│       ├── BackendManager.cs           # Handles Excel input
+│       └── VideoManager.cs             # Handles video playback
 ├── LLaMA-Backend/
-│ ├── app.py # FastAPI server using Ollama
-│ └── requirements.txt # Python dependencies
-├── README.md # Project documentation
+│   ├── app.py                  # FastAPI server using Ollama
+│   └── requirements.txt        # Python dependencies
+├── README.md                   # Project documentation
 ├── .gitignore
 └── LICENSE
-
+```
 
 
 ## Setup & Dependencies
