@@ -62,31 +62,33 @@ MetaSigns/
 
 
 
-Installing NPOI for Unity
+### Installing NPOI for Unity
+
 In Unity, go to Window > Package Manager. Click the + symbol.
+
 Paste this URL: https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity
+
 Reopen Unity. Then go to NuGet > Manage NuGet Packages, search for npoi, and install it.
 
-Sign Language Videos
+### Sign Language Videos
 Place video files in the following directory: Assets/Resources/aslVideos/
 
-Algorithm Overview
-When the user presses Start:
+### Algorithm Overview
 
-A prompt is created using a randomly selected school subject and 2–4 concept words from a spreadsheet.
+1. When the user presses Start:
 
-The LLaMA backend (via Ollama) generates a paragraph.
+2. A prompt is created using a randomly selected school subject and 2–4 concept words from a spreadsheet.
 
-Words in the paragraph:
+3. The LLaMA backend (via Ollama) generates a paragraph.
 
-Are highlighted yellow on hover.
+4. Words in the paragraph: Are highlighted yellow on hover.
 
-Turn green and play a sign language video if clicked and correct.
+5. Turn green and play a sign language video if clicked and correct.
 
-Turn red if clicked and incorrect.
+6. Turn red if clicked and incorrect.
 
-Accessibility & Inclusion
+### Accessibility & Inclusion
 MetaSigns promotes inclusivity by engaging all children, including those who are partially or fully deaf. By combining text with visual sign language demonstrations, it helps solidify vocabulary through multiple sensory pathways (reading and watching).
 
-Summary
+### Summary
 MetaSigns is an educational game designed to help children—especially deaf learners—build vocabulary through an interactive, inclusive experience. Using Unity, LLaMA, and the Neocortex API, it combines AI-generated content, gameplay, and sign language videos to enhance learning outcomes.
