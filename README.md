@@ -10,11 +10,11 @@ The MetaSigns game consists of three main layers:
 - **Neocortex API**: The connection between Unity and LLaMA. It transmits input to LLaMA and returns the generated paragraph.  
 - **LLaMA Backend**: Receives input (school subject, concept words) from Unity and generates a short paragraph including the concept words.
 
-[ Unity Game (UI + Video) ]
-⇅
-[ Neocortex API Layer ]
-⇅
-[ LLaMA Server (NLP) ]
+### [ Unity Game (UI + Video) ]
+### ⇅
+### [ Neocortex API Layer ]
+### ⇅
+### [ LLaMA Server (NLP) ]
 
 
 ## Gameplay Process
