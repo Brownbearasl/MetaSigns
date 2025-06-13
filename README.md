@@ -50,7 +50,7 @@ MetaSigns/
 ## Setup & Dependencies
 
 ### Installing Unity
-- [Download Unity Hub](https://unity.com/download)
+- [Download Unity Hub](https://unity.com/releases/editor/whats-new/2022.3.47)
 - [Unity Documentation](https://docs.unity3d.com/)
 
 ### Installing LLaMA 2
